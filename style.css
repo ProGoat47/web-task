@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    border: none;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    
+    
+
+}
+
+.images-icons{
+    width:25px;
+    height: 25px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+
+.nav-item{
+    padding:5px 5px;
+}
+
+.sale-section{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    word-spacing: 2px;
+}
+.sale-text{
+    padding: 0px 30px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/h1_hero1.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('./images/h1_hero2.jpg.webp'); /* Use a different image */
+}
+.slide-material{
+    text-align: center;
+    width: 35%;
+    position: relative;
+    padding-top: 200px;
+
+    left: 30px;
+
+}
+
+.slide-material-another{
+    text-align: center;
+    width: 35%;
+    padding-top: 200px;
+    /* padding-left: 700px;  */
+    position: relative;
+    left: 500px;
+
+}
+/* .card{
+    background-image: url("./images/items1.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.card:nth-child(2){
+    background-image: url("./images/items2.jpg.webp");
+}
+.card:nth-child(3){
+    background-image: url("./images/items3.jpg.webp");
+} */
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    
+    
+
+}
+
+.trending-nav-item{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.trending-heading{
+    padding-right: 180px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
